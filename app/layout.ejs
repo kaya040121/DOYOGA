@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <!-- icon -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+
+  <!-- font -->
+  <!-- Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Noto Sans CJK TC -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./assets/style/bootstrap.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-lg-between py-5">
+    <div class="container">
+      <!-- logo -->
+      <a class="navbar-brand" href="./index.html"><img src="assets/images/DOYOGA-logo.png" alt="DOYOGA logo"
+          style="width:96px"></a>
+      <!-- 漢堡選單 -->
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="material-icons-outlined" style="font-size:44px">reorder</span>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+      </button>
+      <!-- 折疊 -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-4" aria-current="page" href="#">課程介紹</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#">瑜珈空間</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#">當月課表</a>
+          </li>
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link px-4" href="#">立即預約</a>
+          </li>
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link px-4" href="#">聯絡我們</a>
+          </li>
+        </ul>
+      </div>
+      <!-- button -->
+      <div class="d-flex d-none d-lg-block">
+        <a href="#" class="btn btn-outline-secondary radius-lg">立即預約</a>
+        <a href="#" class="btn btn-outline-secondary radius-lg ms-4">聯絡我們</a>
+      </div>
+    </div>
+  </nav>
+
+  <%- contents %>
+
+    <footer class="footer bg-secondary">
+      <!-- 訂閱 -->
+      <div class="container">
+        <div class="row">
+          <h3 class="text-white pt-7 pt-md-10 pb-2 pb-lg-0 col-lg-8">現在訂閱，獲得課程優惠碼！</h3>
+
+          <div class="col-12 col-md-6 col-lg-4 pt-0 pt-lg-10">
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="輸入您的電子信箱" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+              <span class="input-group-text btn btn-primary text-white" id="basic-addon2">訂閱</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-7 my-md-10">
+
+      <!-- 選單連結 -->
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <img class="mb-2" src="assets/images/DOYOGA.png" alt="DOYOGA logo" style="width: 96px; height: 31px;">
+          <ul class="d-flex">
+            <li><a href="#"><img style="width: 24px; height: 24px;"
+                  src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-fb.svg"
+                  alt="icon-facebook"></a></li>
+            <li class="ms-2"><a href="#"><img style="width: 24px; height: 24px;"
+                  src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-ig.svg"
+                  alt="icon-instagram"></a></li>
+            <li class="ms-2"><a href="#"><img style="width: 24px; height: 24px;"
+                  src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-line.svg"
+                  alt="icon-line"></a></li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-md-between pb-10">
+          <ul>
+            <li class="mb-2"><a class="text-white" href="#">課程介紹</a></li>
+            <li class="mb-2"><a class="text-white" href="#">瑜珈空間</a></li>
+            <li class="mb-2"><a class="text-white" href="#">當月課表</a></li>
+          </ul>
+          <p class="text-white">© 2021. All Rights Reserved.</p>
+          <div></div> <!-- 為了 justify-content-md-between 設定的空白元素 -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- script -->
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- all.js -->
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
