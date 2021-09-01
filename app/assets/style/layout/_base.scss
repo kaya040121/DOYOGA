@@ -3,6 +3,7 @@ img {
     max-width: 100%; //使圖片自適應覆元素大小
     height: auto;
     vertical-align: middle; //去除圖片下方2~3px空白
+    object-fit: cover; //維持原比例
 }
 
 a {
