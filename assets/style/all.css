@@ -1,0 +1,66 @@
+@charset "UTF-8";
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+ol, ul, dl {
+  margin-bottom: 0;
+}
+
+ol, ul {
+  padding-left: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0;
+  color: #fff;
+  border: 0;
+  opacity: 1;
+}
+
+.radius-lg {
+  border-radius: 16px;
+}
+
+.navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.hero {
+  background: url("../../assets/images/photo-1612157777902-5382bc6e864b.jpeg");
+  /*  圖片水平垂直置中  */
+  background-position: center bottom;
+  background-size: cover;
+  /*  背景自適應延伸屬性  */
+  height: 560px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 582px;
+  }
+}
+
+/*# sourceMappingURL=all.css.map */
