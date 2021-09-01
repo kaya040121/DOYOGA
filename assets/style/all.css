@@ -50,6 +50,10 @@ hr {
           flex-grow: 0;
 }
 
+.card-title {
+  margin-bottom: 0.25rem;
+}
+
 .hero {
   background: url("../../assets/images/photo-1612157777902-5382bc6e864b.jpeg");
   /*  圖片水平垂直置中  */
@@ -62,6 +66,16 @@ hr {
 @media (min-width: 768px) {
   .hero {
     height: 582px;
+  }
+}
+
+.teacher-img {
+  width: 48px;
+}
+
+@media (min-width: 768px) {
+  .teacher-img {
+    width: 94px;
   }
 }
 
