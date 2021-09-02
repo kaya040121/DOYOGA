@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  opacity: .7;
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 0;
   line-height: 1.5;
@@ -86,6 +90,40 @@ hr {
 @media (min-width: 768px) {
   .teacher-img-sm {
     width: 68px;
+  }
+}
+
+.space-img-sm {
+  height: 210px;
+}
+
+@media (min-width: 768px) {
+  .space-img-sm {
+    width: 90px;
+    height: 117px;
+  }
+}
+
+@media (min-width: 992px) {
+  .space-img-sm {
+    width: 160px;
+    height: 207px;
+  }
+}
+
+.space-img-lg {
+  height: 210px;
+}
+
+@media (min-width: 768px) {
+  .space-img-lg {
+    height: 266px;
+  }
+}
+
+@media (min-width: 992px) {
+  .space-img-lg {
+    height: 444px;
   }
 }
 
