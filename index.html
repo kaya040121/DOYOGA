@@ -27,7 +27,8 @@
     rel="stylesheet">
 
   <!-- Swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="./assets/style/bootstrap.css">
@@ -95,15 +96,11 @@
             </div>
         </div>
         <ul class="d-none d-lg-block position-absolute top-50 end-0 translate-middle-y me-4">
-            <li class="mb-2"><a href="#"><img style="width: 48px; height: 48px;"
-                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-fb.svg"
-                        alt="icon-facebook"></a></li>
-            <li class="mb-2"><a href="#"><img style="width: 48px; height: 48px;"
-                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-ig.svg"
-                        alt="icon-instagram"></a></li>
-            <li><a href="#"><img style="width: 48px; height: 48px;"
-                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-line.svg"
-                        alt="icon-line"></a></li>
+            <li class="mb-2"><a href="#"><i style="font-size: 48px;" class="fab fa-facebook text-secondary"></i></a>
+            </li>
+            <li class="mb-2"><a href="#"><i style="font-size: 48px;"
+                        class="fab fa-instagram text-secondary"></i></i></a></li>
+            <li class="mb-2"><a href="#"><i style="font-size: 48px;" class="fab fa-line text-secondary"></i></a></li>
         </ul>
     </div>
 </section>
@@ -229,7 +226,8 @@
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                 <h3 class="text-secondary pb-1">舒適空間、靜心放鬆</h3>
                 <h5 class="text-primary fw-normal mb-4">我們都渴望平靜安穩的生活，擁有一處能夠靜心的角落，安撫每天繁雜忙碌的心。</h5>
-                <a class="text-secondary" href="#">環境介紹<span class="material-icons-outlined">trending_flat</span></a>
+                <a class="text-secondary mb-4" href="#">環境介紹<span
+                        class="material-icons-outlined align-middle ms-2">trending_flat</span></a>
             </div>
             <div class="col-6 col-md-4 order-md-1">
                 <img class="radius-lg space-img-lg" src="assets/images/carl-barcelo-nqUHQkuVj3c-unsplash.jpg" alt="">
@@ -242,22 +240,144 @@
             </div>
         </div>
     </div>
-
 </section>
 
 <!-- 精心設計、課程多元 -->
-<section>
-    <h3></h3>
+<section class="bg-light">
+    <div class="container">
+        <div class="row py-13 py-md-14 py-lg-15">
+            <div class="col-12 col-md-6 col-lg-5 offset-lg-1 d-flex flex-column justify-content-center">
+                <h3 class="text-secondary pb-1">精心設計、課程多元</h3>
+                <h5 class="text-primary fw-normal mb-4">教師帶領多元課程，釋放壓力，與身心常見的緊繃不適溫柔和解。</h5>
+                <a class="text-secondary mb-4" href="#">課程介紹<span
+                        class="material-icons-outlined align-middle ms-2">trending_flat</span></a>
+            </div>
+            <!-- Tablet & Mobile 顯示 -->
+            <div class="col-6 col-md-3 d-lg-none text-center">
+                <a href="#"><img src="assets/images/woman doing yoga beside wall.jpg" class="radius-lg course-img mb-4"
+                        alt="course photo"></a>
+                <a href="#"><img src="assets/images/woman in black sports bra and black leggings doing yoga.jpg"
+                        class="radius-lg course-img" alt="course photo"></a>
+            </div>
+            <div class="col-6 col-md-3 d-lg-none text-center">
+                <a href="#"><img src="assets/images/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg"
+                        class="radius-lg course-img mb-4" alt="course photo"></a>
+                <a href="#"><img src="assets/images/woman in white tank top and white leggings bending her body.jpg"
+                        class="radius-lg course-img" alt="course photo"></a>
+            </div>
+
+            <!-- PC 顯示 - swiper -->
+            <div class="d-none d-lg-block col-lg-6">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#"><img src="assets/images/woman doing yoga beside wall.jpg" class="radius-lg"
+                                    alt="course photo"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="assets/images/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg" class="radius-lg"
+                                    alt="course photo"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img
+                                    src="assets/images/woman in black sports bra and black leggings doing yoga.jpg"
+                                    class="radius-lg" alt="course photo"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img
+                                    src="assets/images/woman in white tank top and white leggings bending her body.jpg"
+                                    class="radius-lg" alt="course photo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- 方案選擇 -->
 <section>
-    <h3></h3>
+    <div class="container">
+        <div class="row mt-10 mb-13 mt-md-12 mb-md-14 mb-lg-15">
+            <h3 class="text-secondary text-center pb-1">方案選擇</h3>
+            <h5 class="text-primary text-center fw-normal mb-7">DOYOGA 可以帶給你...</h5>
+            <!-- Horizontal -->
+            <div class="col-12 col-lg-4">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-6 col-lg-12">
+                            <img src="assets/images/woman in white tank top and white leggings bending her body.jpg"
+                                class="card-img-top plan-img" alt="plan">
+                        </div>
+                        <div class="col-md-6 col-lg-12">
+                            <div class="card-body p-7">
+                                <h5 class="card-title text-center text-md-start text-lg-center text-secondary">首次體驗</h5>
+                                <p class="card-text text-center text-md-start text-lg-center text-primary mb-2">NT $450
+                                    / 次</p>
+                                <p class="card-text text-secondary mb-12 mb-md-7 mb-lg-12">分基礎、中級、高級可以選擇。初次至 DOYOGA
+                                    上課建議選擇此方案。
+                                </p>
+                                <a href="#"
+                                    class="btn btn-primary text-white d-flex justify-content-center stretched-link">選擇課程</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Horizontal -->
+            <div class="col-12 col-lg-4">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-6 col-lg-12">
+                            <img src="assets/images/woman performing yoga.jpg" class="card-img-top plan-img" alt="plan">
+                        </div>
+                        <div class="col-md-6 col-lg-12">
+                            <div class="card-body p-7">
+                                <h5 class="card-title text-center text-md-start text-lg-center text-secondary">短期體驗</h5>
+                                <p class="card-text text-center text-md-start text-lg-center text-primary mb-2">NT $1800
+                                    / 月</p>
+                                <p class="card-text text-secondary mb-12 mb-md-7 mb-lg-12">
+                                    分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。</p>
+                                <a href="#"
+                                    class="btn btn-primary text-white d-flex justify-content-center stretched-link">選擇課程</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Horizontal -->
+            <div class="col-12 col-lg-4">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-6 col-lg-12">
+                            <img src="assets/images/woman in blue leggings and black tank top doing yoga.jpg"
+                                class="card-img-top plan-img" alt="plan">
+                        </div>
+                        <div class="col-md-6 col-lg-12">
+                            <div class="card-body p-7">
+                                <h5 class="card-title text-center text-md-start text-lg-center text-secondary">長期體驗</h5>
+                                <p class="card-text text-center text-md-start text-lg-center text-primary mb-2">NT $5600
+                                    / 季</p>
+                                <p class="card-text text-secondary mb-12 mb-md-7 mb-lg-12">
+                                    分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。</p>
+                                <a href="#"
+                                    class="btn btn-primary text-white d-flex justify-content-center stretched-link">選擇課程</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- 聽聽他們怎麼說 -->
-<section>
-    <h3></h3>
+<section class="bg-light">
+    <div class="container">
+        <div class="row">
+            <h3 class="text-secondary text-center">聽聽他們怎麼說</h3>
+        </div>
+    </div>
 </section>
 
     <footer class="bg-secondary">
@@ -307,7 +427,8 @@
 
     <!-- script -->
     <!-- Swiper -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
     <!-- all.js -->
     <script src="./assets/js/vendors.js"></script>
