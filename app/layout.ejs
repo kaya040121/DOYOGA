@@ -27,7 +27,8 @@
     rel="stylesheet">
 
   <!-- Swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="./assets/style/bootstrap.css">
@@ -52,7 +53,7 @@
       </button>
       <!-- 折疊 -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0">
+        <ul class="navbar-nav mb-2 mb-lg-0 fw-light">
           <li class="nav-item">
             <a class="nav-link px-4" aria-current="page" href="#">課程介紹</a>
           </li>
@@ -80,12 +81,11 @@
 
   <%- contents %>
 
-    <footer class="footer bg-secondary">
+    <footer class="bg-secondary">
       <!-- 訂閱 -->
       <div class="container">
         <div class="row">
           <h3 class="text-white pt-7 pt-md-10 pb-2 pb-lg-0 col-lg-8">現在訂閱，獲得課程優惠碼！</h3>
-
           <div class="col-12 col-md-6 col-lg-4 pt-0 pt-lg-10">
             <div class="input-group mb-3">
               <input type="email" class="form-control" placeholder="輸入您的電子信箱" aria-label="Recipient's username"
@@ -116,9 +116,9 @@
         </div>
         <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-md-between pb-10">
           <ul>
-            <li class="mb-2"><a class="text-white" href="#">課程介紹</a></li>
-            <li class="mb-2"><a class="text-white" href="#">瑜珈空間</a></li>
-            <li class="mb-2"><a class="text-white" href="#">當月課表</a></li>
+            <li class="mb-2"><a class="text-white fw-light" href="#">課程介紹</a></li>
+            <li class="mb-2"><a class="text-white fw-light" href="#">瑜珈空間</a></li>
+            <li class="mb-2"><a class="text-white fw-light" href="#">當月課表</a></li>
           </ul>
           <p class="text-white">© 2021. All Rights Reserved.</p>
           <div></div> <!-- 為了 justify-content-md-between 設定的空白元素 -->
@@ -128,7 +128,8 @@
 
     <!-- script -->
     <!-- Swiper -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
     <!-- all.js -->
     <script src="./assets/js/vendors.js"></script>

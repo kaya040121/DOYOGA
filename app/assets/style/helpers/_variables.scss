@@ -267,7 +267,9 @@ $spacers: (
   10: $spacer * 2,    //32px
   11: $spacer * 2.25, //36px 
   12: $spacer * 2.5,  //40px
-  13: $spacer * 3,    //48px  
+  13: $spacer * 3,    //48px
+  14: $spacer * 3.5,  //56px
+  15: $spacer * 4,    //64px  
 ) !default;
 
 // $spacers: (
@@ -393,7 +395,7 @@ $border-color:                $gray-300 !default;
 // scss-docs-end border-variables
 
 // scss-docs-start border-radius-variables
-$border-radius:               .25rem !default; //4px
+$border-radius:               1rem; //.25rem !default; //4px
 $border-radius-sm:            .2rem !default;  //3.2px
 $border-radius-lg:            1rem !default; //.3rem !default;  //4.8px
 $border-radius-pill:          50rem !default;
