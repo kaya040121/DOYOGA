@@ -69,13 +69,23 @@ hr {
   }
 }
 
-.teacher-img {
+.teacher-img-lg {
   width: 48px;
 }
 
 @media (min-width: 768px) {
-  .teacher-img {
+  .teacher-img-lg {
     width: 94px;
+  }
+}
+
+.teacher-img-sm {
+  width: 48px;
+}
+
+@media (min-width: 768px) {
+  .teacher-img-sm {
+    width: 68px;
   }
 }
 
