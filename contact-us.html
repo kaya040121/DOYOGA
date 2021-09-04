@@ -94,11 +94,12 @@
 <div class="container">
     <div class="row mt-13 mt-md-15 mb-18 mb-md-17 mb-lg-21">
         <h3 class="text-secondary text-center pb-1 mb-7">聯絡我們</h3>
-        <!-- 地圖 -->
         <div class="col-12 col-md-10 col-lg-7 offset-md-1 offset-lg-0">
+            <!-- 地圖 -->
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29462.416079653605!2d120.30028136976296!3d22.623867499994663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e049783205c61%3A0xebaf934b04f62525!2zODAy6auY6ZuE5biC6IuT6ZuF5Y2A!5e0!3m2!1szh-TW!2stw!4v1630753636892!5m2!1szh-TW!2stw"
                 width="100%" height="360px" class="border-0 radius-lg" allowfullscreen="" loading="lazy"></iframe>
+            <!-- 教室位置 -->
             <div class="col-12 col-md-7 col-lg-7 text-secondary mt-7 mt-lg-10 mb-12">
                 <h4 class="fw-normal mb-2">DOYOGA 教室位置</h4>
                 <ul>
@@ -118,19 +119,19 @@
                     <h5 class="card-title text-secondary fw-normal mb-4 mb-md-7">意見回饋&問題詢問</h5>
                     <div class="mb-4 text-secondary">
                         <label for="myName" class="form-label">姓名</label>
-                        <input type="text" class="form-control" id="myName" placeholder="請輸入您的姓名">
+                        <input type="text" class="form-control" id="myName" placeholder="請輸入您的姓名" required>
                     </div>
                     <div class="mb-4 text-secondary">
                         <label for="email" class="form-label">電子信箱</label>
-                        <input type="email" class="form-control" id="email" placeholder="email@example.com">
+                        <input type="email" class="form-control" id="email" placeholder="email@example.com" required>
                     </div>
                     <div class="mb-4 text-secondary">
                         <label for="tel" class="form-label">手機號碼</label>
-                        <input type="tel" class="form-control" id="tel" placeholder="0912-345-678">
+                        <input type="tel" class="form-control" id="tel" placeholder="0912-345-678" required>
                     </div>
                     <div class="mb-4 text-secondary">
                         <label for="suggestion" class="form-label">意見回饋</label>
-                        <textarea class="form-control" id="suggestion" style="height: 214px"></textarea>
+                        <textarea class="form-control" id="suggestion" style="height: 214px" required></textarea>
                     </div>
                     <div class="d-flex justify-content-end">
                         <button type="submit" class="btn btn-primary text-white">送出</button>
