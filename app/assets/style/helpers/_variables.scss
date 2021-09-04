@@ -269,7 +269,13 @@ $spacers: (
   12: $spacer * 2.5,  //40px
   13: $spacer * 3,    //48px
   14: $spacer * 3.5,  //56px
-  15: $spacer * 4,    //64px  
+  15: $spacer * 4,    //64px
+  16: $spacer * 4.5,  //72px 
+  17: $spacer * 5,    //80px
+  18: $spacer * 5.5,  //88px
+  19: $spacer * 6,    //96px
+  20: $spacer * 6.5,  //104px
+  21: $spacer * 6.875,//110px
 ) !default;
 
 // $spacers: (
@@ -736,7 +742,7 @@ $input-border-color:                    $gray-400 !default;
 $input-border-width:                    $input-btn-border-width !default;
 $input-box-shadow:                      $box-shadow-inset !default;
 
-$input-border-radius:                   $border-radius !default;
+$input-border-radius:                   4px; //$border-radius !default;
 $input-border-radius-sm:                $border-radius-sm !default;
 $input-border-radius-lg:                $border-radius-lg !default;
 
