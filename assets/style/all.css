@@ -14,6 +14,7 @@ a {
 
 a:hover {
   opacity: .7;
+  color: #fff;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -46,6 +47,10 @@ hr {
 
 .radius-lg {
   border-radius: 16px;
+}
+
+.position-fixed {
+  z-index: 2000;
 }
 
 .navbar-collapse {
@@ -134,12 +139,12 @@ hr {
      object-fit: cover;
 }
 
-.swiper {
+.course .swiper {
   width: 100%;
   height: 100%;
 }
 
-.swiper-slide {
+.course .swiper-slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,7 +156,7 @@ hr {
           align-items: center;
 }
 
-.swiper-slide img {
+.course .swiper-slide img {
   width: 100%;
   height: 445px;
   -o-object-fit: cover;
