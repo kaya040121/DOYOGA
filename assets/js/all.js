@@ -13,5 +13,12 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30
     }
   }
+}); // vanillajs-datepicker
+
+var elem = document.querySelector('input[name="datepicker"]');
+var datepicker = new Datepicker(elem, {
+  nextArrow: '>',
+  prevArrow: '<',
+  buttonClass: 'btn primary'
 });
 //# sourceMappingURL=all.js.map
