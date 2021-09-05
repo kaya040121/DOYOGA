@@ -7,3 +7,10 @@
 .card-title {
     margin-bottom: 0.25rem;
 }
+
+// button
+.btn-outline-secondary:hover {
+    color: $light;
+    background-color: $secondary;
+    border-color: $secondary;
+}

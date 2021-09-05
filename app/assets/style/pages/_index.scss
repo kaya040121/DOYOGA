@@ -55,25 +55,6 @@
     object-fit: cover;
 }
 
-// Swiper
-.course {
-    .swiper {
-        width: 100%;
-        height: 100%;
-    }
-      
-    .swiper-slide {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        img {
-            width: 100%;
-            height: 445px;
-            object-fit: cover;
-        }
-    }
-}
-
 // 方案選擇
 .plan-img {
     width: 100%;
