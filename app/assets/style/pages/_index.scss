@@ -4,7 +4,7 @@
     background-position: center bottom;
     background-size: cover; /*  背景自適應延伸屬性  */
     height: 560px;
-    @include medium (){
+    @include media-breakpoint-up(md){
         height: 582px;
     }    
 }
@@ -12,27 +12,26 @@
 // 頂尖師資、專業教學
 .teacher-img-lg {
     width: 48px;
-    @include medium (){
+    @include media-breakpoint-up(md){
         width: 94px;
     }
 }
 
 .teacher-img-sm {
     width: 48px;
-    @include medium (){
+    @include media-breakpoint-up(md){
         width: 68px;
     }
 }
 
 // 舒適空間、靜心放鬆
-.space-img-sm {
-    
+.space-img-sm {    
     height: 210px;
-    @include medium (){
+    @include media-breakpoint-up(md){
         width: 90px;
         height: 117px;
     }
-    @include large (){
+    @include media-breakpoint-up(lg){
         width: 160px;
         height: 207px;
     }
@@ -40,10 +39,10 @@
 
 .space-img-lg {
     height: 210px;
-    @include medium (){        
+    @include media-breakpoint-up(md){        
         height: 266px;
     }
-    @include large (){        
+    @include media-breakpoint-up(lg){        
         height: 444px;
     }
 }
